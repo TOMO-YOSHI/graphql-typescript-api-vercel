@@ -1,16 +1,12 @@
+const { prisma } = require('../../../lib/prisma')
+
 export const resolvers = {
   Query: {
-    getUser: (): User => {
-      return {
-        id: "Foo",
-        name: "Tomo"
-      };
+    getUser: async() => {
+      const res = await prisma.user.findMany();
+      // console.log(res);
+      return res;
     },
-    hello: (): String => "Hello world!"
+    hello: (): String => "Hello world!!!"
   },
-};
-
-type User = {
-  id: string;
-  name: String;
 };

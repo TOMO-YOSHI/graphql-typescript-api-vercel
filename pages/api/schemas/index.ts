@@ -7,7 +7,7 @@ export const typeDefs = gql`
   }
 
   type Query {
-    getUser: User
+    getUser: [User]
     hello: String
   }
 `;
