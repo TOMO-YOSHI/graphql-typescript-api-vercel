@@ -1,3 +1,18 @@
+# Vercel + GraphQL + Prisma
+## Tips and resources
+
+### Resources
+- [Set up a free PostgreSQL database on Supabase to use with Prisma](https://dev.to/prisma/set-up-a-free-postgresql-database-on-supabase-to-use-with-prisma-3pk6)
+- 
+
+### Official Doc of Prisma
+- [Quickstart](https://www.prisma.io/docs/getting-started/quickstart)
+
+### Official Doc of Vercel
+- [Step 3. Create your database schema with Prisma](https://vercel.com/guides/nextjs-prisma-postgres#step-3.-create-your-database-schema-with-prisma)
+You should run `npx prisma db push` instead of `npx prisma migrate dev --name init` to make tables in DB
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,5 +47,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-Push test
