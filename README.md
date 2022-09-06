@@ -3,6 +3,7 @@
 
 ### Resources
 - [Set up a free PostgreSQL database on Supabase to use with Prisma](https://dev.to/prisma/set-up-a-free-postgresql-database-on-supabase-to-use-with-prisma-3pk6)
+
 *...when deploying your app, you'll use the pooled connection URL. and add the ?pgbouncer=true flag to the PostgreSQL connection URL.*
 
 ### Official Doc of Prisma
@@ -10,8 +11,10 @@
 
 ### Official Doc of Vercel
 - [Step 3. Create your database schema with Prisma](https://vercel.com/guides/nextjs-prisma-postgres#step-3.-create-your-database-schema-with-prisma)
+
 You should run `npx prisma db push` instead of `npx prisma migrate dev --name init` to make tables in DB
 
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
