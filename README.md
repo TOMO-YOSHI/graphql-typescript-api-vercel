@@ -3,7 +3,7 @@
 
 ### Resources
 - [Set up a free PostgreSQL database on Supabase to use with Prisma](https://dev.to/prisma/set-up-a-free-postgresql-database-on-supabase-to-use-with-prisma-3pk6)
-- 
+*...when deploying your app, you'll use the pooled connection URL. and add the ?pgbouncer=true flag to the PostgreSQL connection URL.*
 
 ### Official Doc of Prisma
 - [Quickstart](https://www.prisma.io/docs/getting-started/quickstart)
